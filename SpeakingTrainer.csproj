@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="3.3.0" />
+    <PackageReference Include="System.Speech" Version="10.0.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SpeakingTrainer.Audio\SpeakingTrainer.Audio.csproj" />
+    <ProjectReference Include="..\SpeakingTrainer.Core\SpeakingTrainer.Core.csproj" />
+    <ProjectReference Include="..\SpeakingTrainer.Recognition.Windows\SpeakingTrainer.Recognition.Windows.csproj" />
+    <ProjectReference Include="..\SpeakingTrainer.Recognition.Vosk\SpeakingTrainer.Recognition.Vosk.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Content\Chapter01\Unit01\audio\" />
+  </ItemGroup>
+
+    <ItemGroup>
+		<None Update="Content\**\*">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+        <None Update="Models\**\*">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        </None>
+	</ItemGroup>
+	
+</Project>

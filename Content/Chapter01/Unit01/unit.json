@@ -1,0 +1,21 @@
+{
+  "id": "unit01",
+  "title": "Making Plans",
+  "chunks": [
+    {
+      "id": "001-1",
+      "text": "I think one of the biggest mistakes people make",
+      "audio": "audio/001-part1.wav"
+    },
+    {
+      "id": "001-2",
+      "text": "when learning a language",
+      "audio": "audio/001-part2.wav"
+    },
+    {
+      "id": "001-3",
+      "text": "is focusing too much on being perfect.",
+      "audio": "audio/001-part3.wav"
+    }
+  ]
+}

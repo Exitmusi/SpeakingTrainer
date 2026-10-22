@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="../SpeakingTrainer.Recognition.Vosk/SpeakingTrainer.Recognition.Vosk.csproj" />
+  <Project Path="../SpeakingTrainer.Audio/SpeakingTrainer.Audio.csproj" Id="09743949-4c04-4c17-966d-f5a39162a75b" />
+  <Project Path="../SpeakingTrainer.Core/SpeakingTrainer.Core.csproj" Id="98ab3809-5e9d-40ab-9259-a586609a7662" />
+  <Project Path="../SpeakingTrainer.Recognition.Windows/SpeakingTrainer.Recognition.Windows.csproj" Id="b69a0aaa-02b0-4da6-b0f6-beeaa7ef4e42" />
+  <Project Path="SpeakingTrainer.csproj" />
+</Solution>

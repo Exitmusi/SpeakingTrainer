@@ -1,0 +1,15 @@
+{
+  "chapters": [
+    {
+      "id": "chapter01",
+      "title": "Basic Expressions",
+      "units": [
+        {
+          "id": "unit01",
+          "title": "Making Plans",
+          "file": "Chapter01/Unit01/unit.json"
+        }
+      ]
+    }
+  ]
+}
